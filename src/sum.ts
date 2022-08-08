@@ -1,6 +1,4 @@
-const isNumber = (n: number) => {
-  return typeof n === 'number';
-};
+export const isNumber = (n: number) => typeof n === 'number';
 
 const sum = (...params: number[]) => {
   if (params.length < 2) {
