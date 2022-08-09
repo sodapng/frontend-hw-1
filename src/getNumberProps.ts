@@ -1,6 +1,6 @@
 import { isNumber } from './sum';
 
-const isObject = (obj: any) =>
+export const isObject = (obj: any) =>
   Object.prototype.toString.call(obj) === '[object Object]';
 
 const getNumberProps = (obj: { [key: string]: any }): string[] => {
