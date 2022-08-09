@@ -1,4 +1,4 @@
-export const isNumber = (n: number) => typeof n === 'number';
+export const isNumber = (n: any) => typeof n === 'number';
 
 const sum = (...params: number[]) => {
   if (params.length < 2) {
